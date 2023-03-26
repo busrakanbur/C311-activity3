@@ -1,0 +1,39 @@
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+	position: absolute;
+	left: 0;
+}
+
+html{
+	height: 100%;
+}
+
+img{
+	float: left;
+	width: 250px;
+	margin-right: 15px;
+}
+
+.content, .header{
+	width: 70%;
+	text-align: justify;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+body div:nth-child(5){
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
